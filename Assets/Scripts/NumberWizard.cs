@@ -22,30 +22,25 @@ public class NumberWizard : MonoBehaviour
 
     void StartGame()
     {
-        forsøg = forsøg + 1;
-        guess = (max + min) / 2;
-        guessText.text = guess.ToString();
-        forsøgText.text = forsøg.ToString();
-        max = max + 1;
+        NextGuess();
     }
 
     public void OnPressHigher()
     {
-        min = guess;
+        min = guess + 1;
         NextGuess();
-        forsøg = forsøg + 1;
     }
 
     public void OnPressLower()
     {
-        max = guess;
+        max = guess - 1;
         NextGuess();
-        forsøg = forsøg + 1;
     }
 
     void NextGuess()
     {
-        guess = (max + min) / 2;
+        guess = Random.Range(min, max + 1);
+        forsøg = forsøg + 1;
         guessText.text = guess.ToString();
         forsøgText.text = forsøg.ToString();
     }
