@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NumberWizard : MonoBehaviour {
+public class NumberWizard : MonoBehaviour
+{
 
     [SerializeField] int max;
     [SerializeField] int min;
