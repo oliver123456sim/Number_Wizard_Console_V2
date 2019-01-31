@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/__DELETED_GUID_Trash/a8a8b076a1b6f99499739887665c3186
     guid: a8a8b076a1b6f99499739887665c3186
   - enabled: 1
-    path: Assets/Scenes/Core Game.unity
-    guid: 7fecc1b34bdad7e4981613f8db794c43
-  - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: edd674dd716f77f49b6073c2338835d6
+  - enabled: 1
+    path: Assets/Scenes/Core Game.unity
+    guid: 7fecc1b34bdad7e4981613f8db794c43
   m_configObjects: {}
